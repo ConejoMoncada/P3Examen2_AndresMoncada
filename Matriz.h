@@ -2,7 +2,12 @@
 #define MATRIZ_H
 
 #include "Item.h"
+#include "Obstaculo.h"
+#include "Jugador.h"
 #include "Bomba.h"
+#include "Normal.h"
+#include "Espina.h"
+#include "V.h"
 #include<vector>
 using std::vector;
 
@@ -11,7 +16,7 @@ class Matriz{
         Item*** items;
         vector<Bomba*> bombas;
         char** tablero;
-        
+
     public:
         Matriz();
 

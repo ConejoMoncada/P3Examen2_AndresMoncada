@@ -2,12 +2,14 @@
 
 Jugador::Jugador():Item(){
     nombre = "J";
+    num = 0;
 }
 
-Jugador::Jugador(string nom,bool sts, bool crl, int nr, int nc):Item(nr,nc){
+Jugador::Jugador(string nom,bool sts, bool crl, int nr, int nc,int n):Item(nr,nc){
     nombre = nom;
     status = sts;
     ctrl = crl;
+    num = n;
 }
 
 string Jugador::getNombre(){
@@ -21,7 +23,11 @@ bool Jugador::getCtrl(){
     return ctrl;
 }
 
+int Jugador::getNum(){
+    return num;
+}
+
 Jugador::~Jugador(){
-    
+
 }
 

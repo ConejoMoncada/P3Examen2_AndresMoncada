@@ -10,13 +10,15 @@ class Jugador: public Item{
         string nombre;
         bool status;
         bool ctrl;
+        int num;
     public:
         Jugador();
-        Jugador(string,bool,bool,int,int);
+        Jugador(string,bool,bool,int,int,int);
 
         string getNombre();
         bool getstatus();
         bool getCtrl();
+        int getNum();
 
         ~Jugador();
 };
