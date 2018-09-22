@@ -16,12 +16,15 @@ int Bomba::getT(){
     return t;
 }
 
-void Bomba::truno(){
+void Bomba::turno(){
     t--;
 }
 
 bool Bomba::getVis(){
     return vis;
+}
+void Bomba::odioDynamicCast(){
+    int hola = 3;
 }
 
 Bomba::~Bomba(){

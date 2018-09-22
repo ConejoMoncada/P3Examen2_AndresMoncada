@@ -26,6 +26,9 @@ bool Jugador::getCtrl(){
 int Jugador::getNum(){
     return num;
 }
+void Jugador::odioDynamicCast(){
+    int h = 6;
+}
 
 Jugador::~Jugador(){
 

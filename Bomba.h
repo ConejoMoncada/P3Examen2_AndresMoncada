@@ -18,7 +18,9 @@ class Bomba:public Item{
 
         int getT();
 
-        void truno();
+        void turno();
+
+        void odioDynamicCast();
 
         bool getVis();
 

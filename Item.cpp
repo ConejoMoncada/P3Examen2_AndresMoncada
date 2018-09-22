@@ -25,6 +25,10 @@ void Item::setC(int nc){
     c = nc;
 }
 
+void Item::odioDynamicCast(){
+    int d = 8;
+}
+
 Item::~Item(){
 
 }

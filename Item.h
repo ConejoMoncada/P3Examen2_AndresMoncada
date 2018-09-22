@@ -7,6 +7,7 @@ class Item{
         int c;
     public:
         Item();
+
         Item(int,int);
 
         int getR();
@@ -14,6 +15,7 @@ class Item{
 
         void setR(int);
         void setC(int);
+        virtual void odioDynamicCast() = 0;
 
         ~Item();
 

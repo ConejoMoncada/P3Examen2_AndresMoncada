@@ -16,6 +16,8 @@ class Matriz{
         Item*** items;
         vector<Bomba*> bombas;
         char** tablero;
+        int jf,jc;
+        string nombre;
 
     public:
         Matriz();
@@ -23,6 +25,7 @@ class Matriz{
         vector<Bomba*> getBombas();
         void setIconos();
         void print();
+        void mover(string);
 
         ~Matriz();
 };

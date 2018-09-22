@@ -20,6 +20,8 @@ class Jugador: public Item{
         bool getCtrl();
         int getNum();
 
+        void odioDynamicCast();
+
         ~Jugador();
 };
 #endif

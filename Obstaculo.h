@@ -8,6 +8,8 @@ class Obstaculo: public Item{
         Obstaculo();
         Obstaculo(int,int);
 
+        void odioDynamicCast();
+
         ~Obstaculo();
 };
 #endif
